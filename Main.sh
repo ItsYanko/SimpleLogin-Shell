@@ -35,9 +35,9 @@ if [ "$insert_usr" = "$username && "$insert_pswd" = "$password" ]
 then
 echo "--Username and Password Correct!"
 echo "--Redirecting to Dashboard"
-sh ./files/dashboard.sh
+sh ./files/dashboard.sh               #The Username and the Password are correct, redirecting user to the Dashboard          
 else
-echo "--Username or Password incorrect, exiting"
+echo "--Username or Password incorrect, exiting"    #The Username or the Password is incorrect, takes the user out of the Program
 fi 
 
 $SHELL        #To keep the terminal open
