@@ -18,19 +18,19 @@ echo "Option Number:"
 read insert
 if  [ "$insert" = "$opt1" ]
 then
-echo ""
-sh ./
+echo "Redirecting to Configuration..."
+sh ./config.sh
 fi
 
 if  [ "$insert" = "$opt2" ]
 then
-echo ""
-sh ./
+echo "Showing Username and Password"
+sh ./show_cred.sh
 fi
 
 if  [ "$insert" = "$opt3" ]
 then
-echo ""
-sh ./
+echo "Logging Out..."
+exit 0
 fi
 
