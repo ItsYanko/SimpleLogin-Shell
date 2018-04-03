@@ -19,7 +19,7 @@ read insert
 if  [ "$insert" = "$opt1" ]
 then
 echo "Redirecting to Configuration..."
-sh ./config.sh
+sh ./FirstConfig.sh
 fi
 
 if  [ "$insert" = "$opt2" ]
