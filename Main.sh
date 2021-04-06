@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/env
 #This is a simple Login system
 #Project done by IanPP
 
